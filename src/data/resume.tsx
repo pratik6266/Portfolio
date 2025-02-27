@@ -8,24 +8,29 @@ export const DATA = {
   location: "Kolkata, West Bengal, India",
   locationLink: "https://www.google.com/maps/place/Kolkata,+West+Bengal",
   description:
-    "Passionate developer skilled in algorithms, solving problems, contributing to projects, and continuously learning new technologies.",
+    "Dedicated, problem-solver, backend developer, LeetCode enthusiast, optimizer, system architect",
   summary:
-    "Passionate software developer skilled in algorithms, data structures, and problem-solving, dedicated to building impactful solutions while continuously learning and adapting to new technologies.",
+    "I am a passionate problem-solver and backend developer with expertise in authentication, security, and scalable systems. I enjoy tackling complex challenges, optimizing performance, and building impactful solutions that enhance efficiency and reliability.",
   avatarUrl: "/me.jpg",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
+    "C",
+    "C++",
+    "Java",
     "Python",
+    "MySQL",
+    "React.js",
+    "Node.js",
+    "Next.js",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Typescript",
+    "TailWind",
     "Postgres",
     "Docker",
-    "Java",
-    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "pratikraj220011@gmail.com",
@@ -45,13 +50,13 @@ export const DATA = {
 
         navbar: true,
       },
-      // X: {
-      //   name: "X",
-      //   url: "#",
-      //   icon: Icons.x,
+      X: {
+        name: "X",
+        url: "#",
+        icon: Icons.x,
 
-      //   navbar: true,
-      // },
+        navbar: true,
+      },
       // Youtube: {
       //   name: "Youtube",
       //   url: "#",
@@ -85,25 +90,25 @@ export const DATA = {
   education: [
     {
       school: "Institute of Engineerign & Management",
-      href: "#",
-      degree: "B.Tech CGPA: 9.41",
-      logoUrl: "/buildspace.jpg",
+      href: "https://iem.edu.in/",
+      degree: "B.Tech - IT CGPA: 9.41",
+      logoUrl: "/buildspace.png",
       start: "2022",
       end: "2026",
     },
     {
       school: "ABR Foundation School",
-      href: "#",
-      degree: "12 standard",
-      logoUrl: "/waterloo.png",
+      href: "https://www.abrfoundationschool.org/",
+      degree: "12th - CBSE Scored: 73.6%",
+      logoUrl: "/waterloo.jpeg",
       start: "2019",
       end: "2021",
     },
     {
       school: "St Paul's Senior Secondary School",
-      href: "#",
-      degree: "10 standard",
-      logoUrl: "/laurier.png",
+      href: "https://www.stpaulsschool.co.in/",
+      degree: "10th - CBSE Scored: 83.6%",
+      logoUrl: "/laurier.jpeg",
       start: "2017",
       end: "2019",
     },
@@ -126,7 +131,7 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/pratik6266",
+          href: "https://github.com/pratik6266/Rakshak",
           icon: <Icons.globe className="size-3" />,
         },
       ],
