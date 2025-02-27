@@ -1,6 +1,8 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { TbBrandLeetcode } from "react-icons/tb";
+import { SiGeeksforgeeks } from "react-icons/si";
+import { SiCodingninjas } from "react-icons/si";
 
 export const DATA = {
   name: "Pratik Raj",
@@ -52,13 +54,20 @@ export const DATA = {
 
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "#",
-        icon: Icons.x,
+      CV: {
+        name: "Resume",
+        url: "https://drive.google.com/drive/folders/1d-WYJyG5T14a4IXxis98tpRsPgoTYn5E",
+        icon: <TbBrandLeetcode />,
 
         navbar: true,
       },
+      // X: {
+      //   name: "X",
+      //   url: "#",
+      //   icon: Icons.x,
+
+      //   navbar: true,
+      // },
       // Youtube: {
       //   name: "Youtube",
       //   url: "#",
@@ -67,10 +76,10 @@ export const DATA = {
       // },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCJDkWSbTtpRQNhQfbTzrwtTXMkpGqMPGFXLkxvBgsLVkzwKQGzJhrbSmnnpHQDvfVBvQq",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -151,51 +160,95 @@ export const DATA = {
       iconClassName: "group-hover:text-yellow-500",
       active: false,
       description: [
-        "AV",
-        "BC"
+        "Solved 700+ problems on LeetCode",
+        "Earned Top Interview 150, Top 100 Liked badge.",
+        "LeetCode contest rating: 1583",
+        "Global rank: Under 50K"
       ],
       technologies: [
         "C++", 
-        "Java", 
-        "JavaScript",
-        "MySQL",
+        "Pandas", 
+        "TypeScript",
+        "Oracle",
       ],
       image: "/me.jpg",
     },
     {
-      title: "gEEKS",
-      href: "https://leetcode.com/u/pratik5722/",
-      icon: <TbBrandLeetcode className="text-xl" />,
+      title: "Geeks For Geeks",
+      href: "https://www.geeksforgeeks.org/user/pratik_alex/",
+      icon: <SiGeeksforgeeks className="text-xl" />,
       iconClassName: "group-hover:text-green-500",
 
       active: false,
       description: [
-        "AV",
-        "AV",
-        "AV",
-        "BC"
+        "Solved 540+ problems on GeeksforGeeks",
+        "Achieved 4-star rating on GeeksforGeeks",
+        "GeeksforGeeks contest rating: 1838",
+        "Institutional ranking: 37"
       ],
       technologies: [
         "C++", 
         "Java", 
+        "Python",
+        "C",
+      ],
+      image: "/me.jpg",
+    },
+    {
+      title: "Coding Ninjas",
+      href: "https://www.naukri.com/code360/profile/Pratikalex",
+      icon: <SiCodingninjas className="text-xl" />,
+      iconClassName: "group-hover:text-red-500",
+
+      active: false,
+      description: [
+        "Completed 25 certification courses",
+        "Solved 1K+ problems on Coding Ninjas",
+        "Contest rating: 1671",
+        "League: Ninja Dominator"
+      ],
+      technologies: [
+        "HTML", 
+        "CSS", 
         "JavaScript",
         "MySQL",
       ],
       image: "/me.jpg",
-    }
+    },
+    // {
+    //   title: "Take U Forword",
+    //   href: "https://takeuforward.org/profile/pratik5722",
+    //   icon: <TbBrandLeetcode className="text-xl" />,
+    //   iconClassName: "group-hover:text-red-500",
+
+    //   active: false,
+    //   description: [
+    //     "AV",
+    //     "AV",
+    //     "AV",
+    //     "BC"
+    //   ],
+    //   technologies: [
+    //     "C++", 
+    //     "Java", 
+    //     "Python",
+    //     "C",
+    //   ],
+    //   image: "/me.jpg",
+    // }
   ],
 
-  hackathons: [
-    {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-  ],
+  // hackathons: [
+  //   {
+  //     title: "Hack Western 5",
+  //     dates: "November 23rd - 25th, 2018",
+  //     location: "London, Ontario",
+  //     description:
+  //       "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+  //     image:
+  //       "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+  //     mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+  //     links: [],
+  //   },
+  // ],
 };
