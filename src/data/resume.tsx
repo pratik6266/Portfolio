@@ -54,10 +54,10 @@ export const DATA = {
 
         navbar: true,
       },
-      CV: {
+      Resume: {
         name: "Resume",
         url: "https://drive.google.com/drive/folders/1d-WYJyG5T14a4IXxis98tpRsPgoTYn5E",
-        icon: <TbBrandLeetcode />,
+        icon: Icons.googleDrive,
 
         navbar: true,
       },
