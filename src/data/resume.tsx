@@ -56,7 +56,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/drive/folders/1d-WYJyG5T14a4IXxis98tpRsPgoTYn5E",
+        url: process.env.RESUME_LINK || "https://drive.google.com/drive/folders/1d-WYJyG5T14a4IXxis98tpRsPgoTYn5E",
         icon: Icons.googleDrive,
 
         navbar: true,
@@ -149,7 +149,7 @@ export const DATA = {
       image: "/rakshak.jpg",
       video:
         "",
-    },
+    }
   ],
 
   profiles: [
@@ -157,12 +157,12 @@ export const DATA = {
       title: "LeetCode",
       href: "https://leetcode.com/u/pratik5722/",
       icon: <TbBrandLeetcode className="text-xl" />,
-      iconClassName: "group-hover:text-yellow-500",
+      iconClassName: "text-yellow-500",
       active: false,
       description: [
-        "Solved 700+ problems on LeetCode",
-        "Earned Top Interview 150, Top 100 Liked badge.",
-        "LeetCode contest rating: 1583",
+        "Solved 700+ problems",
+        "Top Interview 150, Top 100 badge.",
+        "Contest rating: 1583",
         "Global rank: Under 50K"
       ],
       technologies: [
@@ -177,13 +177,13 @@ export const DATA = {
       title: "Geeks For Geeks",
       href: "https://www.geeksforgeeks.org/user/pratik_alex/",
       icon: <SiGeeksforgeeks className="text-xl" />,
-      iconClassName: "group-hover:text-green-500",
+      iconClassName: "text-green-500",
 
       active: false,
       description: [
-        "Solved 540+ problems on GeeksforGeeks",
-        "Achieved 4-star rating on GeeksforGeeks",
-        "GeeksforGeeks contest rating: 1838",
+        "Solved 540+ problems",
+        "Achieved 4-star rating",
+        "Contest rating: 1838",
         "Institutional ranking: 37"
       ],
       technologies: [
@@ -198,7 +198,7 @@ export const DATA = {
       title: "Coding Ninjas",
       href: "https://www.naukri.com/code360/profile/Pratikalex",
       icon: <SiCodingninjas className="text-xl" />,
-      iconClassName: "group-hover:text-red-500",
+      iconClassName: "text-blue-500",
 
       active: false,
       description: [

@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import Markdown from "react-markdown";
+import type { JSX } from "react";
 
 interface Prop {
   title: string;
@@ -32,22 +32,22 @@ export function ProfileCard({
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "relative top-0 hover:-top-1 flex flex-col group overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
       }
     >
       <CardHeader className="px-2">
         <div className="space-y-1">
           <Link target="_blank" href={href || '#'}>
-            <CardTitle className="mt-1 flex gap-1 group items-center text-base">
-              <span className={cn("transition-colors ease-in-out", iconClassName)}>
+            <CardTitle className="mt-1 flex gap-1 items-center text-base">
+              <span className={cn(iconClassName)}>
                 {icon}
               </span>
-              <div className="group-hover:text-blue-500 transition-colors ease-in-out">
+              <div className={cn(iconClassName)}>
                 {title}
               </div>
             </CardTitle>
           </Link>
-          <ul className=" list-disc ml-5">
+          <ul className={cn("list-disc ml-5 text-sm")}>
             {
               description.map((dec, index) => {
                 return (
