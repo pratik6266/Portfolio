@@ -86,7 +86,7 @@ export const DATA = {
     {
       school: "Institute of Engineerign & Management",
       href: "#",
-      degree: "B.Tech",
+      degree: "B.Tech CGPA: 9.41",
       logoUrl: "/buildspace.jpg",
       start: "2022",
       end: "2026",
