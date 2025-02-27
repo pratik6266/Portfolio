@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { TbBrandLeetcode } from "react-icons/tb";
 
 export const DATA = {
   name: "Pratik Raj",
@@ -12,6 +13,7 @@ export const DATA = {
   summary:
     "I am a passionate problem-solver and backend developer with expertise in authentication, security, and scalable systems. I enjoy tackling complex challenges, optimizing performance, and building impactful solutions that enhance efficiency and reliability.",
   avatarUrl: "/me.jpg",
+  
   skills: [
     "C",
     "C++",
@@ -140,6 +142,49 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
   ],
+
+  profiles: [
+    {
+      title: "LeetCode",
+      href: "https://leetcode.com/u/pratik5722/",
+      icon: <TbBrandLeetcode className="text-xl" />,
+      iconClassName: "group-hover:text-yellow-500",
+      active: false,
+      description: [
+        "AV",
+        "BC"
+      ],
+      technologies: [
+        "C++", 
+        "Java", 
+        "JavaScript",
+        "MySQL",
+      ],
+      image: "/me.jpg",
+    },
+    {
+      title: "gEEKS",
+      href: "https://leetcode.com/u/pratik5722/",
+      icon: <TbBrandLeetcode className="text-xl" />,
+      iconClassName: "group-hover:text-green-500",
+
+      active: false,
+      description: [
+        "AV",
+        "AV",
+        "AV",
+        "BC"
+      ],
+      technologies: [
+        "C++", 
+        "Java", 
+        "JavaScript",
+        "MySQL",
+      ],
+      image: "/me.jpg",
+    }
+  ],
+
   hackathons: [
     {
       title: "Hack Western 5",
@@ -153,4 +198,4 @@ export const DATA = {
       links: [],
     },
   ],
-} as const;
+};

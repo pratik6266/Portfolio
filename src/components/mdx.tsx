@@ -29,7 +29,7 @@ function CustomLink(props: any) {
 
   if (href.startsWith("/")) {
     return (
-      <Link href={href} {...props}>
+      <Link target="_blank" href={href} {...props}>
         {props.children}
       </Link>
     );
