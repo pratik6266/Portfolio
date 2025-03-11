@@ -17,21 +17,18 @@ export const DATA = {
   avatarUrl: "/me.jpg",
   
   skills: [
-    "C",
     "C++",
     "Java",
     "Python",
     "MySQL",
+    "MongoDB",
     "React.js",
     "Node.js",
     "Next.js",
-    "HTML",
-    "CSS",
+    "Express.js",
     "Javascript",
     "Typescript",
     "TailWind",
-    "Postgres",
-    "Docker",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
