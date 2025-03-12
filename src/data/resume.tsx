@@ -26,8 +26,8 @@ export const DATA = {
     "Node.js",
     "Next.js",
     "Express.js",
-    "Javascript",
-    "Typescript",
+    "JavaScript",
+    "TypeScript",
     "TailWind",
   ],
   navbar: [
