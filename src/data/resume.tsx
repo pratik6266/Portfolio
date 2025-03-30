@@ -146,6 +146,31 @@ export const DATA = {
       image: "/rakshak.jpg",
       video:
         "",
+    },
+    {
+      title: "Scatch",
+      href: "#",
+      dates: "Jan 2025 - Mar 2025",
+      active: false,
+      description:
+        "A user-friendly eCommerce website for selling bags, featuring secure authentication, product listings, cart management, and seamless checkout, ensuring a smooth shopping experience with a responsive design and efficient backend operations.",
+      technologies: [
+        "Mongo DB",
+        "Express JS",
+        "React JS", 
+        "Node JS", 
+        "TailWind CSS",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/Ecommerce",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/scatch.png",
+      video:
+        "",
     }
   ],
 
