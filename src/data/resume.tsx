@@ -29,6 +29,7 @@ export const DATA = {
     "JavaScript",
     "TypeScript",
     "TailWind",
+    "GitHub",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
