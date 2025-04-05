@@ -124,6 +124,32 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Blogify",
+      href: "https://blogify-pratik-raj.vercel.app/",
+      dates: "Feb 2025 - Apr 2025",
+      active: true,
+      description:
+        "Blogigy is a feature-rich, user-centric blogging platform designed to make content creation and discovery seamless, intuitive, and powerful. It blends simplicity with performance to deliver a smooth experience for both writers and readers.",
+      technologies: [
+        "Next JS",
+        "Node JS",
+        "React JS", 
+        "Sanity",
+        "ShadCdn", 
+        "TailWind CSS",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/Blogify",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/blogify.png",
+      video:
+        "",
+    },
+    {
       title: "Rakshak",
       href: "#",
       dates: "Jun 2024 - Dec 2024",
@@ -165,14 +191,39 @@ export const DATA = {
       links: [
         {
           type: "GitHub",
-          href: "https://github.com/pratik6266/Ecommerce",
+          href: "https://github.com/pratik6266/Scatch",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/scatch.png",
       video:
         "",
-    }
+    },
+    {
+      title: "Checkmate",
+      href: "#",
+      dates: "Mar 2025 - Apr 2025",
+      active: false,
+      description:
+        "A real-time multiplayer chess web app with interactive UI, board rotation, and full rules enforcement using chess.js and Socket.io, offering smooth, responsive gameplay across devices with stylish game-over detection.",
+      technologies: [
+        "Socket.IO",
+        "Express JS",
+        "EJS", 
+        "Node JS", 
+        "TailWind CSS",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/Chess",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/chess.png",
+      video:
+        "",
+    },
   ],
 
   profiles: [
