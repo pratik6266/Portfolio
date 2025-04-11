@@ -30,6 +30,8 @@ export const DATA = {
     "TypeScript",
     "TailWind",
     "GitHub",
+    "Prisma",
+    "PostgreSQL"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
