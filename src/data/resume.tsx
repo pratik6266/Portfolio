@@ -152,6 +152,34 @@ export const DATA = {
         "",
     },
     {
+      title: "SoloRoom",
+      href: "https://solo-room.vercel.app/",
+      dates: "Mar 2025 - Apr 2025",
+      active: true,
+      description:
+        "Soloroom is a private, secure one-on-one chat platform built with Next.js, Socket.io, and Redis, enabling real-time messaging with fast delivery, session management, and a clean, distraction-free interface.",
+      technologies: [
+        "Next JS",
+        "Node JS",
+        "React JS", 
+        "Express JS",
+        "Prisma",
+        "PostgreSQL",
+        "Socket.io",
+        "Redis"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/SoloRoom",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/soloroom.png",
+      video:
+        "",
+    },
+    {
       title: "Rakshak",
       href: "#",
       dates: "Jun 2024 - Dec 2024",
