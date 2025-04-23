@@ -126,88 +126,9 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Blogify",
-      href: "https://blogify-pratik-raj.vercel.app/",
-      dates: "Feb 2025 - Apr 2025",
-      active: true,
-      description:
-        "Blogigy is a feature-rich, user-centric blogging platform designed to make content creation and discovery seamless, intuitive, and powerful. It blends simplicity with performance to deliver a smooth experience for both writers and readers.",
-      technologies: [
-        "Next JS",
-        "Node JS",
-        "React JS", 
-        "Sanity",
-        "ShadCdn", 
-        "TailWind CSS",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/pratik6266/Blogify",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/blogify.png",
-      video:
-        "",
-    },
-    {
-      title: "SoloRoom",
-      href: "https://solo-room.vercel.app/",
-      dates: "Mar 2025 - Apr 2025",
-      active: true,
-      description:
-        "Soloroom is a private, secure one-on-one chat platform built with Next.js, Socket.io, and Redis, enabling real-time messaging with fast delivery, session management, and a clean, distraction-free interface.",
-      technologies: [
-        "Next JS",
-        "Node JS",
-        "React JS", 
-        "Express JS",
-        "Prisma",
-        "PostgreSQL",
-        "Socket.io",
-        "Redis"
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/pratik6266/SoloRoom",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/soloroom.png",
-      video:
-        "",
-    },
-    {
-      title: "Rakshak",
-      href: "#",
-      dates: "Jun 2024 - Dec 2024",
-      active: false,
-      description:
-        "A Spring Boot and HTML/CSS/JS-based system for managing criminal records, featuring role-based access, secure authentication, and powerful search/analytics tools to enhance law enforcement efficiency while ensuring data confidentiality.",
-      technologies: [
-        "HTML", 
-        "CSS", 
-        "JavaScript",
-        "Spring Boot",
-        "MySQL",
-      ],
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/pratik6266/Rakshak",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/rakshak.jpg",
-      video:
-        "",
-    },
-    {
       title: "Scatch",
       href: "#",
-      dates: "Jan 2025 - Mar 2025",
+      dates: "Aug 2023 - Jan 2024",
       active: false,
       description:
         "A user-friendly eCommerce website for selling bags, featuring secure authentication, product listings, cart management, and seamless checkout, ensuring a smooth shopping experience with a responsive design and efficient backend operations.",
@@ -232,7 +153,7 @@ export const DATA = {
     {
       title: "Checkmate",
       href: "#",
-      dates: "Mar 2025 - Apr 2025",
+      dates: "Mar 2024 - May 2024",
       active: false,
       description:
         "A real-time multiplayer chess web app with interactive UI, board rotation, and full rules enforcement using chess.js and Socket.io, offering smooth, responsive gameplay across devices with stylish game-over detection.",
@@ -251,6 +172,85 @@ export const DATA = {
         },
       ],
       image: "/chess.png",
+      video:
+        "",
+    },
+    {
+      title: "Blogify",
+      href: "https://blogify-pratik-raj.vercel.app/",
+      dates: "Jun 2024 - Aug 2024",
+      active: true,
+      description:
+        "Blogigy is a feature-rich, user-centric blogging platform designed to make content creation and discovery seamless, intuitive, and powerful. It blends simplicity with performance to deliver a smooth experience for both writers and readers.",
+      technologies: [
+        "Next JS",
+        "Node JS",
+        "React JS", 
+        "Sanity",
+        "ShadCdn", 
+        "TailWind CSS",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/Blogify",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/blogify.png",
+      video:
+        "",
+    },
+    {
+      title: "Rakshak",
+      href: "#",
+      dates: "Sep 2024 - Jan 2025",
+      active: false,
+      description:
+        "A Spring Boot and HTML/CSS/JS-based system for managing criminal records, featuring role-based access, secure authentication, and powerful search/analytics tools to enhance law enforcement efficiency while ensuring data confidentiality.",
+      technologies: [
+        "HTML", 
+        "CSS", 
+        "JavaScript",
+        "Spring Boot",
+        "MySQL",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/Rakshak",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/rakshak.jpg",
+      video:
+        "",
+    },
+    {
+      title: "SoloRoom",
+      href: "https://solo-room.vercel.app/",
+      dates: "Jan 2025 - Apr 2025",
+      active: true,
+      description:
+        "Soloroom is a private, secure one-on-one chat platform built with Next.js, Socket.io, and Redis, enabling real-time messaging with fast delivery, session management, and a clean, distraction-free interface.",
+      technologies: [
+        "Next JS",
+        "Node JS",
+        "React JS", 
+        "Express JS",
+        "Prisma",
+        "PostgreSQL",
+        "Socket.io",
+        "Redis"
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/SoloRoom",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/soloroom.png",
       video:
         "",
     },
