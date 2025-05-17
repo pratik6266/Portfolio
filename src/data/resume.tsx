@@ -229,7 +229,7 @@ export const DATA = {
     {
       title: "SoloRoom",
       href: "https://solo-room.vercel.app/",
-      dates: "Jan 2025 - Apr 2025",
+      dates: "Jan 2025 - Mar 2025",
       active: true,
       description:
         "Soloroom is a private, secure one-on-one chat platform built with Next.js, Socket.io, and Redis, enabling real-time messaging with fast delivery, session management, and a clean, distraction-free interface.",
@@ -251,6 +251,32 @@ export const DATA = {
         },
       ],
       image: "/soloroom.png",
+      video:
+        "",
+    },
+    {
+      title: "Cloak Feedback",
+      href: "https://cloak-feedback-blush.vercel.app/",
+      dates: "Apr 2025 - May 2025",
+      active: true,
+      description:
+        "Cloak Feedback is a simple and secure web app built with Next.js that allows users to submit anonymous feedback. Whether it's for peer reviews, team retrospectives, or general suggestions, Cloak ensures complete privacy, making it easy to gather honest and constructive input without revealing identities.",
+      technologies: [
+        "Next JS",
+        "Node JS",
+        "React JS", 
+        "Prisma",
+        "PostgreSQL",
+        "Tailwindcss",
+      ],
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/pratik6266/Cloak-Feedback",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/cloak-feedback.png",
       video:
         "",
     },
