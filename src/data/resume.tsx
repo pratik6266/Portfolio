@@ -300,10 +300,10 @@ export const DATA = {
       iconClassName: "text-yellow-500",
       active: false,
       description: [
-        "Solved 700+ problems",
-        "Top Interview 150, Top 100 badge.",
+        "Solved 800+ problems",
+        "Top Interview 150, Top SQL 50 Badge.",
         "Contest rating: 1583",
-        "Global rank: Under 50K"
+        "Global rank: Under 40K"
       ],
       technologies: [
         "C++", 
@@ -321,10 +321,10 @@ export const DATA = {
 
       active: false,
       description: [
-        "Solved 540+ problems",
+        "Solved 600+ problems",
         "Achieved 4-star rating",
-        "Contest rating: 1838",
-        "Institutional ranking: 37"
+        "Contest rating: 1870",
+        "Institutional ranking: 27"
       ],
       technologies: [
         "C++", 
