@@ -96,16 +96,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "VAID PR",
+      href: "https://vaidpr.com/",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Full Stack Developer Intern",
+      logoUrl: "/vaid.png",
+      start: "May 2025",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "I designed and built secure APIs, structured database models to manage user roles and permissions, and ensured proper access control across different user types. This helped create a scalable and secure backend system aligned with real-world authorization needs.",
     },
   ],
   education: [
