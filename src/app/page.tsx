@@ -2,7 +2,7 @@ import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
-import { ProfileCard } from "@/components/profile-card";
+import { ProfileCard, ProfileTimeline } from "@/components/profile-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
@@ -127,41 +127,19 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Coding Profiles
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Check out my Profiles
-                </h2>
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">Coding Profiles</div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Check out my Profiles</h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I&apos;ve worked on various coding platforms, tackling diverse challenges from algorithmic problems to complex software solutions. Here are a few of my favorites.
+                  I&apos;ve worked on various coding platforms, tackling diverse challenges from algorithmic problems to
+                  complex software solutions. Here are a few of my favorites.
                 </p>
               </div>
             </div>
           </BlurFade>
-          <div className="relative grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.profiles.map((profiles, id) => (
-              <BlurFade
-                key={profiles.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
-              >
-                <ProfileCard
-                  href={profiles.href}
-                  icon={profiles.icon}
-                  iconClassName={profiles.iconClassName}
-                  key={profiles.title}
-                  title={profiles.title}
-                  description={profiles.description}
-                  tags={profiles.technologies}
-                  image={profiles.image}
-                />
-              </BlurFade>
-            ))}
-          </div>
+          <ProfileTimeline profiles={DATA.profiles} BlurFade={BlurFade} BLUR_FADE_DELAY={BLUR_FADE_DELAY} />
         </div>
       </section>
-      <div className="hackathon">
-        {/* <section id="hackathons">
+      {/* <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -204,7 +182,6 @@ export default function Page() {
           </BlurFade>
         </div>
       </section> */}
-      </div>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>

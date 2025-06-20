@@ -40,6 +40,7 @@ export const DATA = {
     "kubernetes",
     "redis",
     "vscode",
+    "vitejs",
     "shadcnui",
     "zod"
   ],
@@ -302,16 +303,15 @@ export const DATA = {
       description: [
         "Solved 800+ problems",
         "Top Interview 150, Top SQL 50 Badge.",
-        "Contest rating: 1583",
         "Global rank: Under 40K"
       ],
       technologies: [
         "C++", 
+        "Python",
         "Pandas", 
-        "TypeScript",
         "Oracle",
       ],
-      image: "/me.jpg",
+      image: "/leetcode.webp",
     },
     {
       title: "Geeks For Geeks",
@@ -324,15 +324,14 @@ export const DATA = {
         "Solved 600+ problems",
         "Achieved 4-star rating",
         "Contest rating: 1870",
-        "Institutional ranking: 27"
       ],
       technologies: [
         "C++", 
         "Java", 
-        "Python",
+        "TypeScript",
         "C",
       ],
-      image: "/me.jpg",
+      image: "/gfg.png",
     },
     {
       title: "Coding Ninjas",
@@ -345,7 +344,6 @@ export const DATA = {
         "Completed 25 certification courses",
         "Solved 1K+ problems on Coding Ninjas",
         "Contest rating: 1671",
-        "League: Ninja Dominator"
       ],
       technologies: [
         "HTML", 
@@ -353,36 +351,15 @@ export const DATA = {
         "JavaScript",
         "MySQL",
       ],
-      image: "/me.jpg",
+      image: "/ninja.jpg",
     },
-    // {
-    //   title: "Take U Forword",
-    //   href: "https://takeuforward.org/profile/pratik5722",
-    //   icon: <TbBrandLeetcode className="text-xl" />,
-    //   iconClassName: "group-hover:text-red-500",
-
-    //   active: false,
-    //   description: [
-    //     "AV",
-    //     "AV",
-    //     "AV",
-    //     "BC"
-    //   ],
-    //   technologies: [
-    //     "C++", 
-    //     "Java", 
-    //     "Python",
-    //     "C",
-    //   ],
-    //   image: "/me.jpg",
-    // }
   ],
 
   // hackathons: [
   //   {
   //     title: "Hack Western 5",
-  //     dates: "November 23rd - 25th, 2018",
-  //     location: "London, Ontario",
+  //     dates: "",
+  //     location: "",
   //     description:
   //       "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
   //     image:
