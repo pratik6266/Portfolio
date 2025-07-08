@@ -296,7 +296,7 @@ export const DATA = {
   profiles: [
     {
       title: "LeetCode",
-      href: "https://leetcode.com/u/pratik5722/",
+      href: "https://leetcode.com/u/pratik6266",
       icon: <TbBrandLeetcode className="text-xl" />,
       iconClassName: "text-yellow-500",
       active: false,
